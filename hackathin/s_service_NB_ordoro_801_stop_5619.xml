@@ -1,0 +1,252 @@
+<!-- http://www.capmetro.org/planner/s_service.asp?stopid=5619&output=xml&opt=2&tool=NB -->
+<?xml version="1.0"?>
+<soap:Envelope
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <NextbusResponse
+            xmlns="AT_WEB">
+            <Responsecode>0</Responsecode>
+            <Version>1.26</Version>
+            <Input>
+                <Locationlat>0</Locationlat>
+                <Locationlong>0</Locationlong>
+                <Locationtext>postedid 5619</Locationtext>
+                <Atisstopid>0</Atisstopid>
+                <Stopid>5619</Stopid>
+                <Landmarkid></Landmarkid>
+                <Date>5/31/2014</Date>
+                <Time>12:03 PM</Time>
+                <Route></Route>
+            </Input>
+            <Atstop>
+                <Walkdist>0.00</Walkdist>
+                <Description>100 6TH &amp; CONGRESS</Description>
+                <Area>Austin</Area>
+                <Atisstopid>54157</Atisstopid>
+                <Stopid>5619</Stopid>
+                <Lat>30.268280</Lat>
+                <Long>-97.743296</Long>
+                <Stopposition>N</Stopposition>
+                <Heading>NB</Heading>
+                <Side>Near</Side>
+                <Stopstatustype>N</Stopstatustype>
+                <Service>
+                    <Route>21</Route>
+                    <Publicroute>21</Publicroute>
+                    <Sign>21-Exposition</Sign>
+                    <Operator>CM</Operator>
+                    <Publicoperator>CM</Publicoperator>
+                    <Direction>C</Direction>
+                    <Status>N</Status>
+                    <Servicetype>0</Servicetype>
+                    <Routetype>B</Routetype>
+                    <Times>11:50 AM, 12:30 PM, 01:10 PM, 01:50 PM</Times>
+                    <Tripinfo>
+                        <Triptime>11:50 AM</Triptime>
+                        <Tripid>44955-3</Tripid>
+                        <Skedtripid>SPLITSTPGR</Skedtripid>
+                        <Adherence>0</Adherence>
+                        <Estimatedtime>11:50 AM</Estimatedtime>
+                        <Realtime>
+                            <Valid>N</Valid>
+                            <Adherence>0</Adherence>
+                            <Estimatedtime>11:50 AM</Estimatedtime>
+                            <Estimatedminutes></Estimatedminutes>
+                            <Polltime></Polltime>
+                            <Trend></Trend>
+                            <Speed>0.00</Speed>
+                            <Reliable></Reliable>
+                            <Stopped></Stopped>
+                            <Vehicleid></Vehicleid>
+                            <Lat>0.000000</Lat>
+                            <Long>0.000000</Long>
+                        </Realtime>
+                        <Block>021-02</Block>
+                        <Exception>N</Exception>
+                    </Tripinfo>
+                    <Tripinfo>
+                        <Triptime>12:30 PM</Triptime>
+                        <Tripid>44956-3</Tripid>
+                        <Skedtripid>SPLITSTPGR</Skedtripid>
+                        <Adherence>0</Adherence>
+                        <Estimatedtime>12:30 PM</Estimatedtime>
+                        <Realtime>
+                            <Valid>N</Valid>
+                            <Adherence>0</Adherence>
+                            <Estimatedtime>12:30 PM</Estimatedtime>
+                            <Estimatedminutes></Estimatedminutes>
+                            <Polltime></Polltime>
+                            <Trend></Trend>
+                            <Speed>0.00</Speed>
+                            <Reliable></Reliable>
+                            <Stopped></Stopped>
+                            <Vehicleid></Vehicleid>
+                            <Lat>0.000000</Lat>
+                            <Long>0.000000</Long>
+                        </Realtime>
+                        <Block>021-01</Block>
+                        <Exception>N</Exception>
+                    </Tripinfo>
+                    <Tripinfo>
+                        <Triptime>01:10 PM</Triptime>
+                        <Tripid>44957-3</Tripid>
+                        <Skedtripid>SPLITSTPGR</Skedtripid>
+                        <Adherence>0</Adherence>
+                        <Estimatedtime>01:10 PM</Estimatedtime>
+                        <Realtime>
+                            <Valid>N</Valid>
+                            <Adherence>0</Adherence>
+                            <Estimatedtime>01:10 PM</Estimatedtime>
+                            <Estimatedminutes></Estimatedminutes>
+                            <Polltime></Polltime>
+                            <Trend></Trend>
+                            <Speed>0.00</Speed>
+                            <Reliable></Reliable>
+                            <Stopped></Stopped>
+                            <Vehicleid></Vehicleid>
+                            <Lat>0.000000</Lat>
+                            <Long>0.000000</Long>
+                        </Realtime>
+                        <Block>021-02</Block>
+                        <Exception>N</Exception>
+                    </Tripinfo>
+                    <Tripinfo>
+                        <Triptime>01:50 PM</Triptime>
+                        <Tripid>44955-4</Tripid>
+                        <Skedtripid>SPLITSTPGR</Skedtripid>
+                        <Adherence>0</Adherence>
+                        <Estimatedtime>01:50 PM</Estimatedtime>
+                        <Realtime>
+                            <Valid>N</Valid>
+                            <Adherence>0</Adherence>
+                            <Estimatedtime>01:50 PM</Estimatedtime>
+                            <Estimatedminutes></Estimatedminutes>
+                            <Polltime></Polltime>
+                            <Trend></Trend>
+                            <Speed>0.00</Speed>
+                            <Reliable></Reliable>
+                            <Stopped></Stopped>
+                            <Vehicleid></Vehicleid>
+                            <Lat>0.000000</Lat>
+                            <Long>0.000000</Long>
+                        </Realtime>
+                        <Block>021-01</Block>
+                        <Exception>N</Exception>
+                    </Tripinfo>
+                </Service>
+                <Service>
+                    <Route>4</Route>
+                    <Publicroute>4</Publicroute>
+                    <Sign>4-Montopolis-WB</Sign>
+                    <Operator>CM</Operator>
+                    <Publicoperator>CM</Publicoperator>
+                    <Direction>W</Direction>
+                    <Status>D</Status>
+                    <Servicetype>0</Servicetype>
+                    <Routetype>B</Routetype>
+                    <Times>11:46 AM, 12:31 PM, 01:16 PM, 02:01 PM</Times>
+                    <Tripinfo>
+                        <Triptime>11:46 AM</Triptime>
+                        <Tripid>44537-8</Tripid>
+                        <Skedtripid></Skedtripid>
+                        <Adherence>0</Adherence>
+                        <Estimatedtime>11:46 AM</Estimatedtime>
+                        <Realtime>
+                            <Valid>N</Valid>
+                            <Adherence>0</Adherence>
+                            <Estimatedtime>11:46 AM</Estimatedtime>
+                            <Estimatedminutes></Estimatedminutes>
+                            <Polltime></Polltime>
+                            <Trend></Trend>
+                            <Speed>0.00</Speed>
+                            <Reliable></Reliable>
+                            <Stopped></Stopped>
+                            <Vehicleid></Vehicleid>
+                            <Lat>0.000000</Lat>
+                            <Long>0.000000</Long>
+                        </Realtime>
+                        <Block>004-01</Block>
+                        <Exception>N</Exception>
+                    </Tripinfo>
+                    <Tripinfo>
+                        <Triptime>12:31 PM</Triptime>
+                        <Tripid>44537-9</Tripid>
+                        <Skedtripid></Skedtripid>
+                        <Adherence>0</Adherence>
+                        <Estimatedtime>12:31 PM</Estimatedtime>
+                        <Realtime>
+                            <Valid>N</Valid>
+                            <Adherence>0</Adherence>
+                            <Estimatedtime>12:31 PM</Estimatedtime>
+                            <Estimatedminutes></Estimatedminutes>
+                            <Polltime></Polltime>
+                            <Trend></Trend>
+                            <Speed>0.00</Speed>
+                            <Reliable></Reliable>
+                            <Stopped></Stopped>
+                            <Vehicleid></Vehicleid>
+                            <Lat>0.000000</Lat>
+                            <Long>0.000000</Long>
+                        </Realtime>
+                        <Block>004-02</Block>
+                        <Exception>N</Exception>
+                    </Tripinfo>
+                    <Tripinfo>
+                        <Triptime>01:16 PM</Triptime>
+                        <Tripid>44537-10</Tripid>
+                        <Skedtripid></Skedtripid>
+                        <Adherence>0</Adherence>
+                        <Estimatedtime>01:16 PM</Estimatedtime>
+                        <Realtime>
+                            <Valid>N</Valid>
+                            <Adherence>0</Adherence>
+                            <Estimatedtime>01:16 PM</Estimatedtime>
+                            <Estimatedminutes></Estimatedminutes>
+                            <Polltime></Polltime>
+                            <Trend></Trend>
+                            <Speed>0.00</Speed>
+                            <Reliable></Reliable>
+                            <Stopped></Stopped>
+                            <Vehicleid></Vehicleid>
+                            <Lat>0.000000</Lat>
+                            <Long>0.000000</Long>
+                        </Realtime>
+                        <Block>004-01</Block>
+                        <Exception>N</Exception>
+                    </Tripinfo>
+                    <Tripinfo>
+                        <Triptime>02:01 PM</Triptime>
+                        <Tripid>44537-11</Tripid>
+                        <Skedtripid></Skedtripid>
+                        <Adherence>0</Adherence>
+                        <Estimatedtime>02:01 PM</Estimatedtime>
+                        <Realtime>
+                            <Valid>N</Valid>
+                            <Adherence>0</Adherence>
+                            <Estimatedtime>02:01 PM</Estimatedtime>
+                            <Estimatedminutes></Estimatedminutes>
+                            <Polltime></Polltime>
+                            <Trend></Trend>
+                            <Speed>0.00</Speed>
+                            <Reliable></Reliable>
+                            <Stopped></Stopped>
+                            <Vehicleid></Vehicleid>
+                            <Lat>0.000000</Lat>
+                            <Long>0.000000</Long>
+                        </Realtime>
+                        <Block>004-02</Block>
+                        <Exception>N</Exception>
+                    </Tripinfo>
+                </Service>
+            </Atstop>
+            <Statusinfo>|R,4,W,,</Statusinfo>
+            <Requestor>192.168.10.90</Requestor>
+            <Host>cmtaatisweb2</Host>
+            <Copyright>XML schema Copyright (c) 2003-2013 Trapeze Software ULC, its subsidiaries and affiliates.  All rights reserved.</Copyright>
+            <Soapversion>2.6.3 - 09/23/13</Soapversion>
+        </NextbusResponse>
+    </soap:Body>
+</soap:Envelope>
