@@ -8,7 +8,7 @@ import requests
 GTFS_DB_PATH = '../MetroRappid/Data/gtfs_austin.db'
 
 
-def stops_for_route(route_id):
+def db_cursor():
     def dict_factory(cursor, row):
         d = {}
         for idx, col in enumerate(cursor.description):
@@ -18,6 +18,10 @@ def stops_for_route(route_id):
     conn = sqlite3.connect(GTFS_DB_PATH, detect_types=sqlite3.PARSE_COLNAMES)
     cur = conn.cursor()
     cur.row_factory = dict_factory
+
+
+def stops_for_route(route_id):
+
 
     query = """
     SELECT unique_stops.route_id,
@@ -120,8 +124,21 @@ def backup_nextbus(lat, lon, now, route_id=None):
         f.write(res.content)
 
 
+def buslocations(now):
+    res = requests.get('http://www.capmetro.org/planner/s_buslocation.asp?route=*')
+
+    directory = 'capmetro_nextbus_api/s_buslocation'
+
+    fname = '{}/{}-{}.xml'.format(directory, now, res.status_code)
+    print 'writing results to {}'.format(fname)
+
+    with open(fname, 'w+') as f:
+        f.write(res_comment(res))
+        f.write(res.content)
+
 if __name__ == '__main__':
     now = arrow.now()
-    backup_nextbus2(801, now)
-    backup_nextbus(30.268224, -97.743678, now, route_id=801)
-    backup_nextbus(30.268224, -97.743678, now)
+    buslocations(now)
+    # backup_nextbus2(801, now)
+    # backup_nextbus(30.268224, -97.743678, now, route_id=801)
+    # backup_nextbus(30.268224, -97.743678, now)
