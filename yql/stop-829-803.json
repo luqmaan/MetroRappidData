@@ -1,0 +1,101 @@
+{
+    "query": {
+        "count": 1,
+        "created": "2014-12-23T01:52:07Z",
+        "lang": "en-US",
+        "results": {
+            "Envelope": {
+                "encodingStyle": "http://schemas.xmlsoap.org/soap/encoding/",
+                "soap": "http://schemas.xmlsoap.org/soap/envelope/",
+                "soapenc": "http://schemas.xmlsoap.org/soap/encoding/",
+                "xsd": "http://www.w3.org/2001/XMLSchema",
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "Body": {
+                    "SchedulenearbyResponse": {
+                        "xmlns": "AT_WEB",
+                        "Responsecode": "0",
+                        "Version": "1.21",
+                        "Input": {
+                            "Locationlat": "0",
+                            "Locationlong": "0",
+                            "Locationtext": "postedid 829",
+                            "Atisstopid": "0",
+                            "Stopid": "829",
+                            "Landmarkid": null,
+                            "Date": "12/22/2014",
+                            "Time": "07:52 PM",
+                            "Route": "803"
+                        },
+                        "Atstop": {
+                            "Walkdist": "0.00",
+                            "Description": "NORTHCROSS STATION (NB)",
+                            "Area": "Austin",
+                            "Atisstopid": "703",
+                            "Stopid": "829",
+                            "Lat": "30.353856",
+                            "Long": "-97.732083",
+                            "Stopposition": "N",
+                            "Heading": "NB",
+                            "Side": "Near",
+                            "Stopstatustype": "N",
+                            "Service": {
+                                "Route": "803",
+                                "Publicroute": "803",
+                                "Sign": "803 DOMAIN",
+                                "Operator": "CM",
+                                "Publicoperator": "CM",
+                                "Direction": "N",
+                                "Status": "L",
+                                "Servicetype": "0",
+                                "Routetype": "K",
+                                "Times": "07:14 PM, 07:26 PM, 07:39 PM, 07:51 PM, 08:11 PM, 08:30 PM",
+                                "Tripinfo": [{
+                                    "Triptime": "07:14 PM",
+                                    "Tripid": "60785-57",
+                                    "Skedtripid": "\n\t\t\t\t\t\t",
+                                    "Block": "803-04",
+                                    "Exception": "N"
+                                }, {
+                                    "Triptime": "07:26 PM",
+                                    "Tripid": "60785-58",
+                                    "Skedtripid": "\n\t\t\t\t\t\t",
+                                    "Block": "803-06",
+                                    "Exception": "N"
+                                }, {
+                                    "Triptime": "07:39 PM",
+                                    "Tripid": "60785-59",
+                                    "Skedtripid": "\n\t\t\t\t\t\t",
+                                    "Block": "803-91",
+                                    "Exception": "N"
+                                }, {
+                                    "Triptime": "07:51 PM",
+                                    "Tripid": "60785-60",
+                                    "Skedtripid": "\n\t\t\t\t\t\t",
+                                    "Block": "803-10",
+                                    "Exception": "N"
+                                }, {
+                                    "Triptime": "08:11 PM",
+                                    "Tripid": "60785-61",
+                                    "Skedtripid": "\n\t\t\t\t\t\t",
+                                    "Block": "803-02",
+                                    "Exception": "N"
+                                }, {
+                                    "Triptime": "08:30 PM",
+                                    "Tripid": "60785-62",
+                                    "Skedtripid": "\n\t\t\t\t\t\t",
+                                    "Block": "803-05",
+                                    "Exception": "N"
+                                }]
+                            }
+                        },
+                        "Statusinfo": "|R,803,N,,",
+                        "Requestor": "192.168.10.91",
+                        "Host": "cmtaatisweb2",
+                        "Copyright": "XML schema Copyright (c) 2003-2013 Trapeze Software ULC, its subsidiaries and affiliates.  All rights reserved.",
+                        "Soapversion": "2.6.3 - 09/23/13"
+                    }
+                }
+            }
+        }
+    }
+}

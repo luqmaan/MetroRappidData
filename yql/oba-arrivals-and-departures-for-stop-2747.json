@@ -1,0 +1,574 @@
+{
+    "code": 200,
+    "currentTime": 1419382470379,
+    "data": {
+        "entry": {
+            "arrivalsAndDepartures": [
+                {
+                    "arrivalEnabled": true,
+                    "blockTripSequence": 12,
+                    "departureEnabled": true,
+                    "distanceFromStop": 2552.8818995270703,
+                    "frequency": null,
+                    "lastUpdateTime": 1419382460203,
+                    "numberOfStopsAway": 9,
+                    "predicted": true,
+                    "predictedArrivalInterval": null,
+                    "predictedArrivalTime": 1419383259000,
+                    "predictedDepartureInterval": null,
+                    "predictedDepartureTime": 1419383259000,
+                    "routeId": "Hillsborough Area Regional Transit_5",
+                    "routeLongName": "40th Street",
+                    "routeShortName": "5",
+                    "scheduledArrivalInterval": null,
+                    "scheduledArrivalTime": 1419383259000,
+                    "scheduledDepartureInterval": null,
+                    "scheduledDepartureTime": 1419383259000,
+                    "serviceDate": 1419310800000,
+                    "situationIds": [],
+                    "status": "default",
+                    "stopId": "Hillsborough Area Regional Transit_2747",
+                    "stopSequence": 9,
+                    "tripHeadsign": "North to University Area TC",
+                    "tripId": "Hillsborough Area Regional Transit_42335",
+                    "tripStatus": {
+                        "activeTripId": "Hillsborough Area Regional Transit_42369",
+                        "blockTripSequence": 11,
+                        "closestStop": "Hillsborough Area Regional Transit_6968",
+                        "closestStopTimeOffset": 330,
+                        "distanceAlongTrip": 19359.78879262338,
+                        "frequency": null,
+                        "lastKnownDistanceAlongTrip": 0,
+                        "lastKnownLocation": {
+                            "lat": 27.955150604248047,
+                            "lon": -82.45863342285156
+                        },
+                        "lastKnownOrientation": 0,
+                        "lastLocationUpdateTime": 0,
+                        "lastUpdateTime": 1419382460203,
+                        "nextStop": "Hillsborough Area Regional Transit_6968",
+                        "nextStopTimeOffset": 330,
+                        "orientation": 179.2140989550079,
+                        "phase": "",
+                        "position": {
+                            "lat": 27.954466706378945,
+                            "lon": -82.458621795025
+                        },
+                        "predicted": true,
+                        "scheduleDeviation": 0,
+                        "scheduledDistanceAlongTrip": 19359.78879262338,
+                        "serviceDate": 1419310800000,
+                        "situationIds": [],
+                        "status": "default",
+                        "totalDistanceAlongTrip": 19440.69118417295,
+                        "vehicleId": "Hillsborough Area Regional Transit_2612"
+                    },
+                    "vehicleId": "Hillsborough Area Regional Transit_2612"
+                },
+                {
+                    "arrivalEnabled": true,
+                    "blockTripSequence": 16,
+                    "departureEnabled": true,
+                    "distanceFromStop": 2617.061994154181,
+                    "frequency": null,
+                    "lastUpdateTime": 1419382460196,
+                    "numberOfStopsAway": 8,
+                    "predicted": true,
+                    "predictedArrivalInterval": null,
+                    "predictedArrivalTime": 1419383314000,
+                    "predictedDepartureInterval": null,
+                    "predictedDepartureTime": 1419383314000,
+                    "routeId": "Hillsborough Area Regional Transit_12",
+                    "routeLongName": "22nd Street",
+                    "routeShortName": "12",
+                    "scheduledArrivalInterval": null,
+                    "scheduledArrivalTime": 1419383314000,
+                    "scheduledDepartureInterval": null,
+                    "scheduledDepartureTime": 1419383314000,
+                    "serviceDate": 1419310800000,
+                    "situationIds": [],
+                    "status": "default",
+                    "stopId": "Hillsborough Area Regional Transit_2747",
+                    "stopSequence": 8,
+                    "tripHeadsign": "North to University Area TC",
+                    "tripId": "Hillsborough Area Regional Transit_43166",
+                    "tripStatus": {
+                        "activeTripId": "Hillsborough Area Regional Transit_43206",
+                        "blockTripSequence": 15,
+                        "closestStop": "Hillsborough Area Regional Transit_6968",
+                        "closestStopTimeOffset": -210,
+                        "distanceAlongTrip": 17340.639498578006,
+                        "frequency": null,
+                        "lastKnownDistanceAlongTrip": 0,
+                        "lastKnownLocation": {
+                            "lat": 27.9544620513916,
+                            "lon": -82.45814514160156
+                        },
+                        "lastKnownOrientation": 0,
+                        "lastLocationUpdateTime": 0,
+                        "lastUpdateTime": 1419382460196,
+                        "nextStop": "Hillsborough Area Regional Transit_6968",
+                        "nextStopTimeOffset": 330,
+                        "orientation": 270,
+                        "phase": "",
+                        "position": {
+                            "lat": 27.954819,
+                            "lon": -82.45838
+                        },
+                        "predicted": true,
+                        "scheduleDeviation": 0,
+                        "scheduledDistanceAlongTrip": 17340.639498578006,
+                        "serviceDate": 1419310800000,
+                        "situationIds": [],
+                        "status": "default",
+                        "totalDistanceAlongTrip": 17334.655174006934,
+                        "vehicleId": "Hillsborough Area Regional Transit_2315"
+                    },
+                    "vehicleId": "Hillsborough Area Regional Transit_2315"
+                }
+            ],
+            "nearbyStopIds": [
+                "Hillsborough Area Regional Transit_2738",
+                "Hillsborough Area Regional Transit_760"
+            ],
+            "situationIds": [],
+            "stopId": "Hillsborough Area Regional Transit_2747"
+        },
+        "references": {
+            "agencies": [
+                {
+                    "disclaimer": "",
+                    "id": "Hillsborough Area Regional Transit",
+                    "lang": "en",
+                    "name": "Hillsborough Area Regional Transit",
+                    "phone": "813-254-4278",
+                    "privateService": false,
+                    "timezone": "America/New_York",
+                    "url": "http://www.gohart.org"
+                }
+            ],
+            "routes": [
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "09346D",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_5",
+                    "longName": "40th Street",
+                    "shortName": "5",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/hart/05.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "09346D",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_12",
+                    "longName": "22nd Street",
+                    "shortName": "12",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/hart/12.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "09346D",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_1",
+                    "longName": "Florida Avenue",
+                    "shortName": "1",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/hart/01.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "09346D",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_2",
+                    "longName": "Nebraska Avenue",
+                    "shortName": "2",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/hart/02.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "09346D",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_4",
+                    "longName": "Palma Ceia-South Tampa",
+                    "shortName": "4",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/hart/04.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "09346D",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_6",
+                    "longName": "56th Street",
+                    "shortName": "6",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/hart/06.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "09346D",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_7",
+                    "longName": "West Tampa - Citrus Park",
+                    "shortName": "7",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/hart/07.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "09346D",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_8",
+                    "longName": "Progress Village/Brandon",
+                    "shortName": "8",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/hart/08.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "09346D",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_9",
+                    "longName": "15th Street",
+                    "shortName": "9",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/hart/09.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "09346D",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_10",
+                    "longName": "Cypress Street",
+                    "shortName": "10",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/hart/10.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "09346D",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_14",
+                    "longName": "Armenia Avenue",
+                    "shortName": "14",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/hart/14.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "09346D",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_18",
+                    "longName": "30th Street",
+                    "shortName": "18",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/hart/18.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "09346D",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_19",
+                    "longName": "Port Tampa",
+                    "shortName": "19",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/hart/19.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "A81534",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_20",
+                    "longName": "Pasco - Lutz Express",
+                    "shortName": "20",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/commuterexpress/020x.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "A81534",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_21",
+                    "longName": "56th Street Lx",
+                    "shortName": "21",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/commuterexpress/021lx.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "A81534",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_22",
+                    "longName": "Dover - Brandon Express",
+                    "shortName": "22",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/commuterexpress/022x.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "A81534",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_27",
+                    "longName": "Riverview-Fishhawk-Brandon Ltd",
+                    "shortName": "27",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/commuterexpress/027lx.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "A81534",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_28",
+                    "longName": "East County Express",
+                    "shortName": "28",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/commuterexpress/028x.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "09346D",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_30",
+                    "longName": "Town 'N Country",
+                    "shortName": "30",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/hart/30.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "09346D",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_46",
+                    "longName": "Downtown To Dover Rd",
+                    "shortName": "46",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/hart/46.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "A81534",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_47",
+                    "longName": "Southshore Limited Express",
+                    "shortName": "47",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/commuterexpress/047lx.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "A81534",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_51",
+                    "longName": "New Tampa - Pasco Express",
+                    "shortName": "51",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/commuterexpress/051x.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "A81534",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_61",
+                    "longName": "Northwest Limited Express",
+                    "shortName": "61",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/commuterexpress/061lx.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "3C2D90",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_96",
+                    "longName": "In-Town Trolley Purple Line",
+                    "shortName": "96",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/trolley/96.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "A81534",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_200",
+                    "longName": "Clearwater Express",
+                    "shortName": "200",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/commuterexpress/200x.html"
+                },
+                {
+                    "agencyId": "Hillsborough Area Regional Transit",
+                    "color": "2EB135",
+                    "description": "",
+                    "id": "Hillsborough Area Regional Transit_400",
+                    "longName": "Metrorapid North-South",
+                    "shortName": "400",
+                    "textColor": "FFFFFF",
+                    "type": 3,
+                    "url": "http://www.gohart.org/routes/hart/400.html"
+                }
+            ],
+            "situations": [],
+            "stops": [
+                {
+                    "code": "2747",
+                    "direction": "E",
+                    "id": "Hillsborough Area Regional Transit_2747",
+                    "lat": 27.962304,
+                    "locationType": 0,
+                    "lon": -82.44336,
+                    "name": "Palm Av @ 15th St",
+                    "routeIds": [
+                        "Hillsborough Area Regional Transit_5",
+                        "Hillsborough Area Regional Transit_12"
+                    ],
+                    "wheelchairBoarding": "UNKNOWN"
+                },
+                {
+                    "code": "6968",
+                    "direction": "",
+                    "id": "Hillsborough Area Regional Transit_6968",
+                    "lat": 27.954758,
+                    "locationType": 0,
+                    "lon": -82.458284,
+                    "name": "Marion Transit Center",
+                    "routeIds": [
+                        "Hillsborough Area Regional Transit_1",
+                        "Hillsborough Area Regional Transit_2",
+                        "Hillsborough Area Regional Transit_4",
+                        "Hillsborough Area Regional Transit_5",
+                        "Hillsborough Area Regional Transit_6",
+                        "Hillsborough Area Regional Transit_7",
+                        "Hillsborough Area Regional Transit_8",
+                        "Hillsborough Area Regional Transit_9",
+                        "Hillsborough Area Regional Transit_10",
+                        "Hillsborough Area Regional Transit_12",
+                        "Hillsborough Area Regional Transit_14",
+                        "Hillsborough Area Regional Transit_18",
+                        "Hillsborough Area Regional Transit_19",
+                        "Hillsborough Area Regional Transit_20",
+                        "Hillsborough Area Regional Transit_21",
+                        "Hillsborough Area Regional Transit_22",
+                        "Hillsborough Area Regional Transit_27",
+                        "Hillsborough Area Regional Transit_28",
+                        "Hillsborough Area Regional Transit_30",
+                        "Hillsborough Area Regional Transit_46",
+                        "Hillsborough Area Regional Transit_47",
+                        "Hillsborough Area Regional Transit_51",
+                        "Hillsborough Area Regional Transit_61",
+                        "Hillsborough Area Regional Transit_96",
+                        "Hillsborough Area Regional Transit_200",
+                        "Hillsborough Area Regional Transit_400"
+                    ],
+                    "wheelchairBoarding": "UNKNOWN"
+                },
+                {
+                    "code": "2738",
+                    "direction": "W",
+                    "id": "Hillsborough Area Regional Transit_2738",
+                    "lat": 27.962549,
+                    "locationType": 0,
+                    "lon": -82.443994,
+                    "name": "Palm Av @  Republica De Cuba",
+                    "routeIds": [
+                        "Hillsborough Area Regional Transit_5",
+                        "Hillsborough Area Regional Transit_12"
+                    ],
+                    "wheelchairBoarding": "UNKNOWN"
+                },
+                {
+                    "code": "760",
+                    "direction": "N",
+                    "id": "Hillsborough Area Regional Transit_760",
+                    "lat": 27.963038,
+                    "locationType": 0,
+                    "lon": -82.442864,
+                    "name": "15th St @ 11th Av",
+                    "routeIds": [
+                        "Hillsborough Area Regional Transit_18"
+                    ],
+                    "wheelchairBoarding": "UNKNOWN"
+                }
+            ],
+            "trips": [
+                {
+                    "blockId": "Hillsborough Area Regional Transit_281900",
+                    "directionId": "0",
+                    "id": "Hillsborough Area Regional Transit_42335",
+                    "routeId": "Hillsborough Area Regional Transit_5",
+                    "routeShortName": "",
+                    "serviceId": "Hillsborough Area Regional Transit_We",
+                    "shapeId": "Hillsborough Area Regional Transit_36442",
+                    "timeZone": "",
+                    "tripHeadsign": "North to University Area TC",
+                    "tripShortName": ""
+                },
+                {
+                    "blockId": "Hillsborough Area Regional Transit_281900",
+                    "directionId": "1",
+                    "id": "Hillsborough Area Regional Transit_42369",
+                    "routeId": "Hillsborough Area Regional Transit_5",
+                    "routeShortName": "",
+                    "serviceId": "Hillsborough Area Regional Transit_We",
+                    "shapeId": "Hillsborough Area Regional Transit_36443",
+                    "timeZone": "",
+                    "tripHeadsign": "South to Downtown/MTC",
+                    "tripShortName": ""
+                },
+                {
+                    "blockId": "Hillsborough Area Regional Transit_282657",
+                    "directionId": "0",
+                    "id": "Hillsborough Area Regional Transit_43166",
+                    "routeId": "Hillsborough Area Regional Transit_12",
+                    "routeShortName": "",
+                    "serviceId": "Hillsborough Area Regional Transit_We",
+                    "shapeId": "Hillsborough Area Regional Transit_36458",
+                    "timeZone": "",
+                    "tripHeadsign": "North to University Area TC",
+                    "tripShortName": ""
+                },
+                {
+                    "blockId": "Hillsborough Area Regional Transit_282657",
+                    "directionId": "1",
+                    "id": "Hillsborough Area Regional Transit_43206",
+                    "routeId": "Hillsborough Area Regional Transit_12",
+                    "routeShortName": "",
+                    "serviceId": "Hillsborough Area Regional Transit_We",
+                    "shapeId": "Hillsborough Area Regional Transit_36459",
+                    "timeZone": "",
+                    "tripHeadsign": "South to Downtown/MTC",
+                    "tripShortName": ""
+                }
+            ]
+        }
+    },
+    "text": "OK",
+    "version": 2
+}

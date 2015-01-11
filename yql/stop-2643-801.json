@@ -1,0 +1,108 @@
+{
+    "query": {
+        "count": 1,
+        "created": "2014-12-23T01:59:02Z",
+        "lang": "en-US",
+        "results": {
+            "Envelope": {
+                "Body": {
+                    "SchedulenearbyResponse": {
+                        "Atstop": {
+                            "Area": "Austin",
+                            "Atisstopid": "1602",
+                            "Description": "LAVACA & 4TH",
+                            "Heading": "NB",
+                            "Lat": "30.266688",
+                            "Long": "-97.745865",
+                            "Service": {
+                                "Direction": "N",
+                                "Operator": "CM",
+                                "Publicoperator": "CM",
+                                "Publicroute": "801",
+                                "Route": "801",
+                                "Routetype": "K",
+                                "Servicetype": "0",
+                                "Sign": "801 TECH RIDGE",
+                                "Status": "L",
+                                "Times": "07:14 PM, 07:29 PM, 07:44 PM, 08:04 PM, 08:24 PM, 08:44 PM",
+                                "Tripinfo": [
+                                    {
+                                        "Block": "801-16",
+                                        "Exception": "N",
+                                        "Skedtripid": "\n\t\t\t\t\t\t",
+                                        "Tripid": "60771-62",
+                                        "Triptime": "07:14 PM"
+                                    },
+                                    {
+                                        "Block": "801-11",
+                                        "Exception": "N",
+                                        "Skedtripid": "\n\t\t\t\t\t\t",
+                                        "Tripid": "60771-63",
+                                        "Triptime": "07:29 PM"
+                                    },
+                                    {
+                                        "Block": "801-13",
+                                        "Exception": "N",
+                                        "Skedtripid": "\n\t\t\t\t\t\t",
+                                        "Tripid": "60771-64",
+                                        "Triptime": "07:44 PM"
+                                    },
+                                    {
+                                        "Block": "801-02",
+                                        "Exception": "N",
+                                        "Skedtripid": "\n\t\t\t\t\t\t",
+                                        "Tripid": "60771-65",
+                                        "Triptime": "08:04 PM"
+                                    },
+                                    {
+                                        "Block": "801-04",
+                                        "Exception": "N",
+                                        "Skedtripid": "\n\t\t\t\t\t\t",
+                                        "Tripid": "60771-66",
+                                        "Triptime": "08:24 PM"
+                                    },
+                                    {
+                                        "Block": "801-06",
+                                        "Exception": "N",
+                                        "Skedtripid": "\n\t\t\t\t\t\t",
+                                        "Tripid": "60771-67",
+                                        "Triptime": "08:44 PM"
+                                    }
+                                ]
+                            },
+                            "Side": "Near",
+                            "Stopid": "2643",
+                            "Stopposition": "N",
+                            "Stopstatustype": "N",
+                            "Walkdist": "0.00"
+                        },
+                        "Copyright": "XML schema Copyright (c) 2003-2013 Trapeze Software ULC, its subsidiaries and affiliates.  All rights reserved.",
+                        "Host": "cmtaatisweb2",
+                        "Input": {
+                            "Atisstopid": "0",
+                            "Date": "12/22/2014",
+                            "Landmarkid": null,
+                            "Locationlat": "0",
+                            "Locationlong": "0",
+                            "Locationtext": "postedid 2643",
+                            "Route": "801",
+                            "Stopid": "2643",
+                            "Time": "07:59 PM"
+                        },
+                        "Requestor": "192.168.10.91",
+                        "Responsecode": "0",
+                        "Soapversion": "2.6.3 - 09/23/13",
+                        "Statusinfo": "|R,801,N,,",
+                        "Version": "1.21",
+                        "xmlns": "AT_WEB"
+                    }
+                },
+                "encodingStyle": "http://schemas.xmlsoap.org/soap/encoding/",
+                "soap": "http://schemas.xmlsoap.org/soap/envelope/",
+                "soapenc": "http://schemas.xmlsoap.org/soap/encoding/",
+                "xsd": "http://www.w3.org/2001/XMLSchema",
+                "xsi": "http://www.w3.org/2001/XMLSchema-instance"
+            }
+        }
+    }
+}
