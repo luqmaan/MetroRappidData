@@ -1,17 +1,4 @@
-<!--
-        GET 200 http://www.capmetro.org/planner/s_buslocation.asp?route=*
-        {'access-control-allow-origin': 'http://cmtacustas1',
- 'cache-control': 'private',
- 'content-encoding': 'gzip',
- 'content-length': '2403',
- 'content-type': 'text/html',
- 'date': 'Sun, 08 Jun 2014 02:41:55 GMT',
- 'server': 'Microsoft-IIS/7.0',
- 'set-cookie': 'ASPSESSIONIDCSBDBBRA=EPPFHJGBECAJHDLHGKBACLMB; path=/',
- 'vary': 'Accept-Encoding',
- 'x-powered-by': 'ASP.NET1a'}
--->
-    <?xml version="1.0"?>
+<?xml version="1.0"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><BuslocationResponse xmlns="AT_WEB">
 			<Version>1.0</Version>
 			<Responsecode>0</Responsecode>
